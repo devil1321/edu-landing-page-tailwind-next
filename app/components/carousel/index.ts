@@ -3,7 +3,7 @@ import Carousel from "./carousel.component";
 import Wrapper from "./wrapper.component";
 
 
-export const CardsComponents = {
+export const CarouselComponents = {
     Item,
     Carousel,
     Wrapper
