@@ -11,11 +11,11 @@ import { NewsletterComponents } from "./components/newsletter";
 import { CommentsComponents } from "./components/comments";
 import { QuestionsComponents } from "./components/questions";
 import { KidComponents } from "./components/kid";
-import { FooterComponents } from "./components/global/foorer";
 
 export default function Home() {
   return (
     <main className="container mx-auto">
+      <GlobalComponents.Nav />
       <HeroComponents.Hero />
       <CardsComponents.Cards />
       <DownloadingComponents.Downloading />
@@ -27,7 +27,7 @@ export default function Home() {
       <CommentsComponents.Comments />
       <QuestionsComponents.Questions />
       <KidComponents.Kid />
-      <FooterComponents.Footer />
+      <GlobalComponents.Footer />
     </main>
   );
 }
