@@ -1,9 +1,16 @@
 import React from 'react'
+import Image from 'next/image';
 
-const Icon = () => {
+interface IconProps{
+  img:string;
+  isLeft:boolean;
+  top:string;
+}
+
+const Icon:React.FC<IconProps> = ({img,isLeft,top}) => {
   return (
-    <div>
-      
+    <div className={`learners-icon absolute hidden md:visible ${isLeft ? "left-0" : 'right-0'} ${top}`}>
+      <Image src={img} alt='learners-icon' width={100} height={100}/>
     </div>
   )
 }

@@ -32,8 +32,8 @@ const Nav = () => {
           <Link className='nav-menu-item mr-4 md:mr-0 my-5 min-w-[300px] md:min-w-fit hover:bg-none hover:bg-sky-300 md:my-0 block mg:inline-block hover:opacity-50 hover:underline' href="#">About</Link>
         </div>
         <div className="nav-buttons w-2/2 md:1/5 flex mx-5">
-          <Image className='hover:opacity-70 mx-1' src="/assets/google-store.png" alt="store-logo" width={100} height={30} />
-          <Image className='hover:opacity-70 mx-1' src="/assets/apple-store.png" alt="store-logo" width={100} height={30} />
+          <Image className='cursor-pointer hover:opacity-70 mx-1' src="/assets/google-store.png" alt="store-logo" width={100} height={30} />
+          <Image className='cursor-pointer hover:opacity-70 mx-1' src="/assets/apple-store.png" alt="store-logo" width={100} height={30} />
         </div>
     </div>
   )

@@ -1,10 +1,16 @@
 import React from 'react'
 
-const Title = () => {
+interface TitleProps{
+  size:string;
+  text:string;
+  position:string;
+}
+
+const Title:React.FC<TitleProps> = ({size,text,position}) => {
   return (
-    <div>
-      
-    </div>
+    <h2 className={`my-10 font-bold text-${size} ${position}`}>
+      {text}
+    </h2>
   )
 }
 

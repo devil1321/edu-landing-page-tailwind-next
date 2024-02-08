@@ -4,6 +4,13 @@
 
 
 @layer base {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+        overflow-x:hidden;
+    }
     @media (min-width:768px){
         .nav-hamburger{
             display:none;
@@ -18,5 +25,15 @@
         .nav-buttons{
             display: none !important;
         }
+    }
+    .feature,.carousel,.newsletter{
+        width: calc(100% + 85px);
+        position: relative;
+        top:0px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .carousel::-webkit-scrollbar{
+        display: none;        
     }
 }

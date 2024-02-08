@@ -1,4 +1,4 @@
-import Details from "./details.component";
+import Details from "./details/details.component";
 import Downloading from "./downloading.component";
 import Phone from "./phone.component";
 
