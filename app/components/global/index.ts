@@ -1,4 +1,4 @@
-import Footer from "./foorer/footer.component";
+import Footer from "./footer/footer.component";
 import Nav from "./nav.component";
 import Title from "./title.component";
 

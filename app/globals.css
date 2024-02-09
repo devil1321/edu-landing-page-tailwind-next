@@ -36,4 +36,20 @@
     .carousel::-webkit-scrollbar{
         display: none;        
     }
+    @media (max-width:767px){
+        .learners-icon{
+            display: none;
+        }
+    }
+    @keyframes fadeIn {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .questions-accordion-item-text{
+        animation: fadeIn 0.5s ease-in-out forwards   ;
+    }
 }

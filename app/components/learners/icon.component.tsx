@@ -9,7 +9,7 @@ interface IconProps{
 
 const Icon:React.FC<IconProps> = ({img,isLeft,top}) => {
   return (
-    <div className={`learners-icon absolute hidden md:visible ${isLeft ? "left-0" : 'right-0'} ${top}`}>
+    <div className={`learners-icon absolute ${isLeft ? "left-0" : 'right-0'} ${top}`}>
       <Image src={img} alt='learners-icon' width={100} height={100}/>
     </div>
   )

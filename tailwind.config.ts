@@ -30,7 +30,7 @@ const config: Config = {
         'f-18':'18px',
         'f-14':'14px',
         'f-13':'13px'
-      }
+      },
     },
   },
   plugins: [],
